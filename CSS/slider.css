@@ -1,0 +1,38 @@
+.slider{ /*la barra del reproductor simple*/
+    background: rgba(255, 255, 255, .2);
+    block-size: .25rem;
+    border-radius: .25rem;
+
+}
+
+.slider:hover .slider-progress {
+    background: var(--primary);
+}
+
+.slider:hover .slider-buttton {
+    display: block;
+}
+
+.slider-progress { /*indicador del reproductor*/
+    block-size: inherit; /*hereda la propiedad de su padre(el de arriba)*/
+    border-radius: inherit;
+    background: var(--white);
+    inline-size: 20%;
+    position: relative;
+}
+
+.slider-buttton { /*boton o indicador de la barra de reproducions*/
+    background: var(--white);
+    padding: 0;
+    border: 0;
+
+    block-size: 200%; /*osea el soble que su padre*/
+    aspect-ratio: 1/1;   
+    border-radius: 50%;
+
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-50%,-50%); /*-50% de su propio tamaño*/
+    display: none;
+}

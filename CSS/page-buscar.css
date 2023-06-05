@@ -1,0 +1,70 @@
+.categoriasMusica {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.categotiasMusica-item {
+    inline-size: 12.15rem;
+    block-size: 12.15rem;
+    border-radius: .625rem;
+    /* border: 1px solid blue; */
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.categoriasMisica-title {
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+.categoriasMusica-cover {
+    position: absolute;
+    right: -1rem;
+    bottom: -.5rem;
+}
+
+.categoriasMusica-cover img {
+    vertical-align: middle;
+    transform: rotate(35deg);
+}
+
+.color1 {
+    background: rgb(39, 133, 106);
+}
+
+.color2 {
+    background: rgb(30, 50, 100);
+}
+
+.color3 {
+    background: rgb(141, 103, 171);
+}
+
+.color4 {
+    background: rgb(232, 17, 91);
+}
+
+.color5 {
+    background: rgb(225, 51, 0);
+}
+
+.color6 {
+    background: rgb(71, 125, 149);
+}
+
+.color7 {
+    background: rgb(140, 25, 50);
+}
+
+.color8 {
+    background: rgb(186, 93, 7);
+}
+
+.color9 {
+    background: rgb(13, 115, 236);
+}

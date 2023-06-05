@@ -1,0 +1,10 @@
+.ellipsis {
+    overflow: hidden; /*par aqu efuncione en otras parted*/
+}
+
+.ellipsis > * {
+    display: block;
+    white-space: nowrap; /*par que no haga un desbordamiento*/
+    overflow: hidden; /*oculta lo que se sale de su box*/
+    text-overflow: ellipsis; /*añade unos puntos para que se vea bien*/
+}
